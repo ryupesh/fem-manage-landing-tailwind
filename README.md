@@ -5,4 +5,4 @@
 
 
 
-<img src="/FrontendMentorManage/Resources/manage-landing-page-master/design/desktop-design.jpg" alt="Website Preview" style="height: 300px; width:200px;"/>
+<img src="/Resources/manage-landing-page-master/design/desktop-design.jpg" alt="Website Preview" style="height: 300px; width:200px;"/>
