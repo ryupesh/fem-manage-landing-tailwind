@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Front-End Manage Landing Page</title>
+</head>
+
+<body class="font-body text-blue-primary leading-tight">
+    <header class="header pt-12">
+        <div class="container container-custom">
+            <div class="flex items-center justify-between">
+                <a href="#">
+                    <svg height="24" width="146">
+                        <use xlink:href="/img/logo.svg#logo"></use>
+                    </svg>
+                </a>
+                <button class="nav-toggle cursor-pointer bg-transparent border-0 p-2 md:hidden" aria-controls="main-navigation">
+                    <img src="/img/icon-hamburger.svg" alt="" aria-hidden="true" />
+                    <img class="hidden" src="/img/icon-close.svg" alt="" aria-hidden="true" />
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <nav role="navigation" class="main-navigation" id="main-navigation">
+                    <ul class="nav-list py-3 md:p-0 md:flex md:items-center md:justify-between md:space-x-4" aria-label="Primary">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </nav>
+                <button class="button hidden md:block">Get Started</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-12">
+            <div class="container container-custom even-columns">
+                <div class="space-y-8">
+                    <h1 class="text-4xl font-bold">
+                        Bring everyone together to build better products.
+                    </h1>
+                    <p class="text-clr-light">
+                        Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                    </p>
+                    <button class="button">Get Started</button>
+                </div>
+                <div>
+                    <img src="/img/illustration-intro.svg" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="container container-custom even-columns">
+                <div class="space-y-8">
+                    <h2 class="font-bold text-3xl">What’s different about Manage?</h2>
+                    <p class="text-clr-light">
+                        Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
+                    </p>
+                </div>
+
+                <div>
+                    <ul class="space-y-8">
+                        <li class="space-y-3">
+                            <h3 class="text-base font-bold">Track company-wide progres</h3>
+                            <p class="text-sm text-clr-light">
+                                See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                            </p>
+                        </li>
+                        <li class="space-y-3">
+                            <h3 class="text-base font-bold">Advanced built-in reports</h3>
+                            <p class="text-sm text-clr-light">
+                                Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                            </p>
+                        </li>
+                        <li class="space-y-3">
+                            <h3 class="text-base font-bold">
+                                Everything you need in one place
+                            </h3>
+                            <p class="text-sm text-clr-light">
+                                Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold">What they've said</h2>
+                <!-- slider -->
+                <div class="mt-24">
+                    <ul class="testimonials space-y-16 md:space-y-0">
+                        <li>
+                            <img src="/img/avatar-anisha.png" alt="">
+                            <h3>Anisha Li</h3>
+                            <p>
+                                “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/img/avatar-ali.png" alt="">
+                            <h3>Ali Bravo</h3>
+                            <p>
+                                “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/img/avatar-richard.png" alt="">
+                            <h3>Richard Watts</h3>
+                            <p>
+                                “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="button mt-12">Get Started</button>
+            </div>
+        </section>
+
+        <section class="py-12 bg-red-accent-400">
+            <div class="container container-custom even-columns">
+                <div class="justify-self-center md:justify-self-end">
+                    <p class="text-3xl font-bold text-gray-light text-center md:text-left w-3/4 mx-auto">
+                        Simplify how your team works today.
+                    </p>
+                </div>
+                <div class="justify-self-center md:justify-self-end">
+                    <button class="button button-inverted">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 bg-neutral-900 text-white">
+        <div class="container container-custom flex items-center justify-between flex-col-reverse md:flex-row gap-12 relative">
+            <div class="flex flex-col-reverse justify-between md:flex-col gap-10 md:gap-20">
+                <div class="pb-16 md:pb-0">
+                    <svg height="24" width="146">
+                        <use xlink:href="/img/logo.svg#logo"></use>
+                    </svg>
+                </div>
+                <ul class="flex space-x-3" role="list" aria-label="Social Links">
+                    <li>
+                        <a href="#" aria-label="facebook">
+                            <svg class="social-icon">
+                                <use xlink:href="/img/social-icons-sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="youtube">
+                            <svg class="social-icon">
+                                <use xlink:href="/img/social-icons-sprite.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="twitter">
+                            <svg class="social-icon">
+                                <use xlink:href="/img/social-icons-sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="pinterest">
+                            <svg class="social-icon">
+                                <use xlink:href="/img/social-icons-sprite.svg#icon-pinterest"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="instagram">
+                            <svg class="social-icon">
+                                <use xlink:href="/img/social-icons-sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <nav>
+                    <ul class="space-y-4 columns-2" aria-label="Footer" role="list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex flex-col justify-between gap-16 self-center md:self-start">
+                <form action="">
+                    <input class="rounded-full text-blue-primary px-7 py-3 mr-2" type="email" name="mail" id="mail" placeholder="Updated in your inbox..." />
+                    <button class="button button-no-shadow">Go</button>
+                </form>
+
+                <p class="text-clr-light text-sm self-center md:self-end absolute top-full bottom-0">
+                    Copyright 2022. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
