@@ -5,4 +5,9 @@
 
 
 
-<img src="/Resources/manage-landing-page-master/design/desktop-design.jpg" alt="Website Preview" style="height: 300px; width:200px;"/>
+<p> &nbsp;</p>
+<p> &nbsp;</p>
+<p style="display:flex; justify-content:space-between;">
+<img src="/Resources/manage-landing-page-master/design/desktop-design.jpg" alt="Website Preview" style="height: 800px; width:400px;"/>
+<img src="/Resources/manage-landing-page-master/design/mobile-design.jpg" alt="Website Preview" style="height: 800px; width:100px;"/>
+</p>
